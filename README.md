@@ -1,5 +1,5 @@
-git status --查看文件状态
-git commit -m"desc"-- 提交文件
+git status -- 查看文件状态
+git commit -m "desc" -- 提交文件
 git diff filename.txt --查看修改内容
 
 小结
@@ -11,5 +11,4 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 
 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 
-
-add test
+所以，git add命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行git commit就可以一次性把暂存区的所有修改提交到分支。
