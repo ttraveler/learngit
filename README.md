@@ -90,6 +90,17 @@ bug分支只用于在本地修复bug，就没必要推到远程了，除非老�
 
 feature分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发。
 
+### 标签管理
+
+命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+
+命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+
+命令git tag可以查看所有标签。
+
+
+
+
 
 
 
